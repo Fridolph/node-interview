@@ -10,6 +10,18 @@
     .markdown-section a:not(:hover) {
       text-decoration: none;
     }
+    .sidebar {
+      padding-top: 20px;
+    }
+    .sidebar h1 {
+      font-weight: normal;
+    }
+    .sidebar blockquote {
+      margin-left: 12px;
+    }
+    section.content {
+      padding-top: 50px;
+    }
   </style>
 </head>
 <body>
@@ -17,10 +29,10 @@
 </body>
 <script>
   window.$docsify = {
-    repo: 'ElemeFE/node-interview',
     name: 'Node.js Interview',
     auto2top: true,
-    loadNavbar: true
+    loadNavbar: true,
+    repo: 'ElemeFE/node-interview/'
   }
 </script>
 <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
